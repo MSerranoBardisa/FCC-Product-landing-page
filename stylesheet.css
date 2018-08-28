@@ -1,0 +1,162 @@
+body {
+  --black: #242424;
+  --blue: #007BCA;
+  --dark-blue: #006DB0;
+  --light-grey: #fbfbfb;
+  --medium-grey: #f9f9f9; 
+  --dark-grey: #ececec;
+  --dark-dark-grey: #d1d1d1;
+  --footer-grey: #242424;
+  --yellow: #f7c87a;
+  --green: #55aa81;
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: var(--light-grey);
+  color: var(--black) !important;
+}
+
+/*Utility classes*/
+
+.btn-primary {
+	font-weight: bold;
+	background-color: var(--blue);
+	border-bottom: 4px solid transparent;
+	border-radius: 0px;
+}
+
+.btn-primary:hover {
+	border-color: var(--dark-blue);
+	background-color: var(--blue);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+/*Navbar*/
+
+.nav-section {
+	background-color: white !important;
+	border-bottom: 6px solid var(--medium-grey);
+}
+
+.navbar-brand {
+	width: 150px;
+}
+
+a.nav-link {
+	font-weight: bold;
+	border-bottom: 4px solid transparent;
+	display: inline-block;
+	transition: 300ms;
+	padding-bottom: 2px;
+	color: var(--black) !important;
+}
+
+a.nav-link:hover {
+	border-color: var(--black);
+}
+
+a.apply-btn {
+	background-color: var(--blue);
+	color: white !important;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+a.apply-btn:hover {
+	border-color: var(--dark-blue);
+}
+
+
+/*Hero section*/
+
+.hero-section p.lead {
+	line-height: 1.6em;
+}
+
+
+/*Benefits section*/
+
+.benefits-section p {
+	line-height: 1.8em;
+}
+
+.benefits-img-circle {
+	height: 70px;
+	width: 70px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	background-color: var(--dark-grey);
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.benefits-img-wrapper {
+	width: 60%;
+	height: 60%;
+}
+
+.benefits-txt .small a:hover {
+	font-weight: bold;
+	color: var(--black) !important;
+	text-decoration: none;
+}
+
+.benefits-txt .small a{
+	color: var(--black) !important;
+}
+
+/*Pricing section*/
+
+.pricing-table {
+	background-color: var(--dark-grey);
+	border-radius: 3px;
+	border: 1px solid var(--dark-dark-grey);
+	margin: auto;
+}
+
+
+/*Coaches section*/
+
+.coaches-logos {
+	background-color: var(--dark-grey);
+	border-radius: 3px;
+	border: 1px solid var(--dark-dark-grey);
+	margin: auto;
+}
+
+/*Programme section*/
+
+.programme-section .fa-li {
+	color: var(--yellow);
+	font-size: 1em;
+}
+
+.programme-section p {
+	line-height: 1.6em;
+}
+
+#green-circle {
+	color: var(--green);
+}
+
+/*Footer*/
+
+footer {
+	background-color: var(--footer-grey);
+	color: white;
+}
+
+.footer-link {
+	color: white;
+	font-size: 0.85em;
+}
+
+.footer-link:hover {
+	color: var(--dark-dark-grey);
+	text-decoration: none;
+}
