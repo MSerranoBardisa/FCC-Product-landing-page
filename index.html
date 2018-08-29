@@ -17,9 +17,6 @@
     <!-- Custom CSS-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-    <!-- FCC tests -->
-
-
     <title>School Four - Career accelerator 100% free until hired</title>
   </head>
   <body>
@@ -28,7 +25,7 @@
       <nav class="navbar navbar-expand-md navbar-light bg-light nav-section fixed-top" id="nav-bar">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img class="img-fluid" id="header-img" src="images/s4-logo-alt.png">
+            <img class="img-fluid" id="header-img" src="https://farm2.staticflickr.com/1852/43435015045_6d1c846896_o.png">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,7 +42,7 @@
                 <a class="nav-link px-0 mx-3 my-2" href="#price">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 mx-3 my-2 apply-btn" href="#">Apply</a>
+                <a class="nav-link px-3 mx-3 my-2 apply-btn" href="#price">Apply</a>
               </li>
             </ul>
           </div>
@@ -59,10 +56,9 @@
             <div class="col-md-4 text-center text-md-left">
               <h1 class="font-weight-bold">Accelerate your career</h1>
               <p class="lead my-4">School Four is an 8 week programme for students and new grads to land their dream job - <span class="font-weight-bold">100% free until you're hired</span></p>
-              <!-- <a class="btn btn-primary" href="#" role="button">Apply Now</a> -->
-              <form id="form">
-				<input id="email" type="email" name="email" placeholder="max@gmail.com" required>
-				<input type="submit" value="SUBMIT" id="submit">
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+        				<input id="email" type="email" name="email" placeholder="max@gmail.com" required>
+        				<input type="submit" value="SUBMIT" id="submit">
               </form>
             </div>
             <div class="col-md-8 order-md-last order-first">
@@ -116,7 +112,7 @@
           </div>
         </div>
       </section>
-      <section class="coaches-section py-5">
+      <section class="coaches-section py-5" id="coaches">
         <div class="container">
           <div class="row">
             <div class="col-md-2">
@@ -126,9 +122,8 @@
               <h2 class="font-weight-bold pb-0"><a class="anchor" name="coaches"></a>HAND-PICKED COACHES</h2>
               <p class="lead pb-3">Our coaches and alumni work at the following companies</p>
               </div>
-              <div class="coaches-logos" id="video">
-                <iframe src="#"></iframe> 
-                <!-- Embed video here -->
+              <div class="coaches-video embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Q14joHt2uc0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
               </div>
             </div>
             <div class="col-md-2">
@@ -136,7 +131,7 @@
           </div>
         </div>
       </section>
-      <section class="programme-section pt-5 pb-4">
+      <section class="programme-section pt-5 pb-4" id="programme">
         <div class="container">
           <div class="row">
           <div class="col-md-2"></div>
@@ -185,7 +180,7 @@
           </div>
         </div>
       </section>      
-      <section class="pricing-section py-5">
+      <section class="pricing-section py-5" id="price">
         <div class="container">
           <div class="row">
             <div class="col-md-3"></div>

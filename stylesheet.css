@@ -122,10 +122,7 @@ a.apply-btn:hover {
 
 /*Coaches section*/
 
-.coaches-logos {
-	background-color: var(--dark-grey);
-	border-radius: 3px;
-	border: 1px solid var(--dark-dark-grey);
+.coaches-video {
 	margin: auto;
 }
 
